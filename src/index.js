@@ -14,3 +14,14 @@ for (const page of ['index', ...pages.filter((p) => p !== 'index')]) {
   item.innerText = text;
   nav.appendChild(item);
 }
+
+document.getElementById('menu_button').addEventListener('click', () => {
+  const navcont = document.getElementById('navigation_container');
+  if (navcont.classList.contains('hidden')) {
+    navcont.classList.remove('hidden');
+    navcont.classList.add('block');
+  } else {
+    navcont.classList.add('hidden');
+    navcont.classList.remove('block');
+  }
+});
