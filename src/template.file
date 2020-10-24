@@ -36,7 +36,7 @@
 
       <div class='items-center justify-center w-56 p-2 text-center m-auto flex-shrink-0'>
         <div class='m-auto'>
-          <img class='rounded-full h-40 w-40 border-2 border-blue-500 border-double m-auto' src='./profile.png' />
+          <img class='rounded-full h-40 w-40 border-2 border-blue-500 border-double m-auto' src='./profile.jpg' />
         </div>
         <div class='text-lg font-bold'>
           Dr. Abdul Yaseer Shakur
